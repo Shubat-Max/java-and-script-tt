@@ -1,4 +1,3 @@
-
 /**
  *
  */
@@ -38,7 +37,6 @@ const statement = (invoice, plays) => {
   return result;
 };
 
-
 /**
  *
  */
@@ -63,7 +61,6 @@ const calculatePlayPrice = (type, audience) => {
   return price;
 };
 
-
 /**
  *
  */
@@ -76,32 +73,3 @@ const calculatePlayBonuses = (type, audience) => {
   // if ("comedy" === type) bonuses += audience % 10;
   return bonuses;
 };
-
-// const invoice = {
-//   customer: "MDT",
-//   performance: [
-//     {
-//       playId: "Гамлет",
-//       audience: 55,
-//       type: "tragedy"
-//     },
-//     {
-//       playId: "Ромео и Джульетта",
-//       audience: 35,
-//       type: "tragedy"
-//     },
-//     {
-//       playId: "Отелло",
-//       audience: 40,
-//       type: "comedy"
-//     }
-//   ]
-// };
-//
-// const plays = [
-//   { name: "Гамлет" },
-//   { name: "Ромео и Джульетта" },
-//   { name: "Отелло" }
-// ];
-//
-// console.log(statement(invoice, plays));
